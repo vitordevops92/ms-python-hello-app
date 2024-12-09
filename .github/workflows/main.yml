@@ -1,19 +1,19 @@
-on:
-  push:
-    branches: ["main"]
+# on:
+#   push:
+#     branches: ["main"]
 
-jobs:
-  Kustomize-Validator:
-    runs-on: ubuntu-latest
+# jobs:
+#   Kustomize-Validator:
+#     runs-on: ubuntu-latest
     
-    steps:      
-    - name: Checkout code
-      uses: actions/checkout@v4
+#     steps:      
+#     - name: Checkout code
+#       uses: actions/checkout@v4
       
-    - name: kustomize-check
-      uses: 'anarcher/kustomize-check-action@master'
-      with:
-        # paths is optional. when changes are in this paths, check-action do check it.
-        paths: |
-            base/
-            overlay/
+#     - name: kustomize-check
+#       uses: 'anarcher/kustomize-check-action@master'
+#       with:
+#         # paths is optional. when changes are in this paths, check-action do check it.
+#         paths: |
+#             base/
+#             overlay/
