@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: vdevops92/python-hello-app:latest
+        image: vdevops92/python-hello-app:4
         resources:
           # requests:
           #   cpu: 100m
