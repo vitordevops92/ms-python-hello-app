@@ -14,10 +14,8 @@ spec:
     spec:
       containers:
       - name: hello-app
+        image: vdevops92/python-hello-app:13
         resources:
-          # requests:
-          #   cpu: 50m
-          #   memory: 100Mi
           limits:
             cpu: 100m
             memory: 128Mi
